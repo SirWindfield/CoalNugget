@@ -2,7 +2,7 @@
     "id": "coalnugget",
     "name": "Coal Nugget",
     "description": "Adds a single-operation fuel crafted with coal or charcoal.",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "side": "universal",
     "initializers": [
         "toyhippogriff.coalnugget.CoalNugget"
