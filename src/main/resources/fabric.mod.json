@@ -1,13 +1,25 @@
 {
+    "schemaVersion": 1,
     "id": "coalnugget",
     "name": "Coal Nugget",
+    "version": "1.0.1.2",
     "description": "Adds a single-operation fuel crafted with coal or charcoal.",
-    "version": "1.0.0.1",
-    "side": "universal",
-    "initializers": [
-        "toyhippogriff.coalnugget.CoalNugget"
+    "authors": [
+        "toyhippogriff"
     ],
+    "icon": "assets/coalnugget/icon.png",
+    "contact": {
+        "sources": "https://www.github.com/toyhippogriff/CoalNugget"
+    },
+    "license": "GPL-3.0",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "toyhippogriff.coalnugget.CoalNugget"
+        ]
+    },
     "requires": {
+        "fabricloader": ">=0.4.0",
         "fabric": "*"
     }
 }
