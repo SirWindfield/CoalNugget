@@ -11,8 +11,8 @@ import net.minecraft.util.registry.Registry;
 
 public class CoalNugget implements ModInitializer
 {
-    public static final Item COAL_NUGGET = new Item(new Item.Settings().itemGroup(ItemGroup.MATERIALS));
-    public static final Item CHARCOAL_NUGGET = new Item(new Item.Settings().itemGroup(ItemGroup.MATERIALS));
+    public static final Item COAL_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item CHARCOAL_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static final Tag<Item> COAL_NUGGETS = TagRegistry.item(new Identifier("coalnugget", "coal_nuggets"));
 
